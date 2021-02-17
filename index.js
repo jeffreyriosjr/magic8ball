@@ -1,3 +1,12 @@
+
+content.classList.add("shake")
+
+setTimeout(function(){
+    content.classList.remove("shake");}, 1000 )
+    setTimeout(function(){getEightBall();}, 1000)
+
+
+
 function generate_random(max_number) {
     return Math.round(Math.random()*max_number);
 }
