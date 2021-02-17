@@ -43,7 +43,7 @@ button.addEventListener("click", function(){
 
     }
     if (randomNumber == 6) {
-        answerText = "Sure why not";
+        answerText = "What would Jeff do?";
 
     }
     if (randomNumber == 7) {
@@ -59,7 +59,7 @@ button.addEventListener("click", function(){
 
     }
     if (randomNumber == 10) {
-        answerText = "without a doubt!";
+        answerText = "No Habla ingles";
 
     }
 
