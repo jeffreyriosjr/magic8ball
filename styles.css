@@ -1,0 +1,36 @@
+* {
+ background-image: url(images/8ball_BG.jpg);
+ background-size: contain;
+ background-repeat: repeat-x;
+ background-attachment: fixed;
+font-family: Caveat;
+font-size: 32px;
+color: white;
+}
+
+#content{
+    background: white;
+    opacity: 0.8;
+    width: 400px;
+    margin:  auto;
+    padding: 20px;
+    border-radius: 35px;
+    text-align: center;
+}
+#eightBall{
+    width: 350px;
+    height: 350px;
+    background: black;
+    
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#answer {
+    font-size: 35px;
+}
