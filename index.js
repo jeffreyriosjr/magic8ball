@@ -1,11 +1,12 @@
 
+
 content.classList.add("shake")
 
 setTimeout(function(){
     content.classList.remove("shake");}, 1000 )
-    setTimeout(function(){getEightBall();}, 1000)
+    
 
-
+    console.log
 
 function generate_random(max_number) {
     return Math.round(Math.random()*max_number);
@@ -14,6 +15,8 @@ let button = document.querySelector("button");
 let answer = document.querySelector("#answer");
 
 button.addEventListener("click", function(){
+
+    
 
     let randomNumber = generate_random(10);
     let answerText = "";
@@ -67,5 +70,5 @@ button.addEventListener("click", function(){
 
     answer.innerHTML = answerText;
     
-    
+    alert("Great Question!")
 });
